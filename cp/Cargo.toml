@@ -1,0 +1,6 @@
+[package]
+name = "cp"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]

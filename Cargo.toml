@@ -1,0 +1,13 @@
+[package]
+name = "c-replacements"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+[workspace]
+members = [
+    "wc",
+    "cat",
+    "cp"
+]
