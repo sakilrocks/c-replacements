@@ -10,4 +10,4 @@ members = [
     "wc",
     "cat",
     "cp"
-]
+, "head", "tail", "mkdir", "rm", "touch"]
