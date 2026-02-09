@@ -77,11 +77,27 @@ This builds all tools in the workspace.
 
 Run a specific tool using the -p flag:
   
-``` cargo run -p wc -- file.txt```    
-``` cargo run -p cat -- file.txt```     
-``` cargo run -p cp -- source.txt destination.txt```    
-``` cargo run -p head -- -n 5 file.txt```     
-``` cargo run -p tail -- -n 10 file.txt```   
-``` cargo run -p mkdir -- example_dir```   
-``` cargo run -p rm -- example.txt```   
-``` cargo run -p touch -- a.txt b.txt ```   
+``` 
+cargo run -p wc -- file.txt
+```    
+``` 
+cargo run -p cat -- file.txt
+```     
+``` 
+cargo run -p cp -- source.txt destination.txt
+```    
+```
+cargo run -p head -- -n 5 file.txt
+```     
+``` 
+cargo run -p tail -- -n 10 file.txt
+```   
+```
+cargo run -p mkdir -- example_dir 
+```   
+``` 
+cargo run -p rm -- example.txt
+```   
+```
+cargo run -p touch -- a.txt b.txt 
+```   
